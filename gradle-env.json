@@ -1,0 +1,1327 @@
+{
+  "": {
+    "name": "AgoraBot",
+    "version": "1.0-SNAPSHOT",
+    "path": "",
+    "gradle": {
+      "version": "7.0",
+      "type": "bin",
+      "url": "https://services.gradle.org/distributions/gradle-7.0-bin.zip",
+      "sha256": "eb8b89184261025b0430f5b2233701ff1377f96da1ef5e278af6ae8bac5cc305",
+      "nativeVersion": "0.22-milestone-11"
+    },
+    "dependencies": {
+      "settings": [],
+      "plugin": [
+        {
+          "id": {
+            "group": "com.github.gundy",
+            "name": "semver4j",
+            "version": "0.16.4",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "semver4j-0.16.4.jar",
+          "path": "com/github/gundy/semver4j/0.16.4",
+          "urls": [
+            "https://plugins.gradle.org/m2/com/github/gundy/semver4j/0.16.4/semver4j-0.16.4.jar"
+          ],
+          "sha256": "def9b4225fa37219e18f81d01f0e52d73dca1257a38f5475be9dd58f87736510"
+        },
+        {
+          "id": {
+            "group": "com.github.gundy",
+            "name": "semver4j",
+            "version": "0.16.4",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "semver4j-0.16.4.pom",
+          "path": "com/github/gundy/semver4j/0.16.4",
+          "urls": [
+            "https://plugins.gradle.org/m2/com/github/gundy/semver4j/0.16.4/semver4j-0.16.4.pom"
+          ],
+          "sha256": "32001db2443b339dd21f5b79ff29d1ade722d1ba080c214bde819f0f72d1604d"
+        },
+        {
+          "id": {
+            "group": "com.google.code.gson",
+            "name": "gson",
+            "version": "2.8.6",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "gson-2.8.6.jar",
+          "path": "com/google/code/gson/gson/2.8.6",
+          "urls": [
+            "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar"
+          ],
+          "sha256": "c8fb4839054d280b3033f800d1f5a97de2f028eb8ba2eb458ad287e536f3f25f"
+        },
+        {
+          "id": {
+            "group": "com.google.code.gson",
+            "name": "gson",
+            "version": "2.8.6",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "gson-2.8.6.pom",
+          "path": "com/google/code/gson/gson/2.8.6",
+          "urls": [
+            "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.6/gson-2.8.6.pom"
+          ],
+          "sha256": "2174415a647332d30fda04bd1cfc708a3ecc84eaf7517f596188d8244e103911"
+        },
+        {
+          "id": {
+            "group": "com.google.code.gson",
+            "name": "gson-parent",
+            "version": "2.8.6",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "gson-parent-2.8.6.pom",
+          "path": "com/google/code/gson/gson-parent/2.8.6",
+          "urls": [
+            "https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.8.6/gson-parent-2.8.6.pom"
+          ],
+          "sha256": "3736463859ec19267295e894940ae82a8f684413031122fe35ce7cff7e30a774"
+        },
+        {
+          "id": {
+            "group": "de.undercouch",
+            "name": "gradle-download-task",
+            "version": "4.1.1",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "gradle-download-task-4.1.1.jar",
+          "path": "de/undercouch/gradle-download-task/4.1.1",
+          "urls": [
+            "https://plugins.gradle.org/m2/de/undercouch/gradle-download-task/4.1.1/gradle-download-task-4.1.1.jar"
+          ],
+          "sha256": "eb08b570e408d4646705e70a949614d439ea2b11455f1652ab0330de8954dab9"
+        },
+        {
+          "id": {
+            "group": "de.undercouch",
+            "name": "gradle-download-task",
+            "version": "4.1.1",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "gradle-download-task-4.1.1.pom",
+          "path": "de/undercouch/gradle-download-task/4.1.1",
+          "urls": [
+            "https://plugins.gradle.org/m2/de/undercouch/gradle-download-task/4.1.1/gradle-download-task-4.1.1.pom"
+          ],
+          "sha256": "1109f1f71a54254d590337d8b9d443f9dfc08728c9c1d8335655cc1dcc88c0b9"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "13.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "annotations-13.0.jar",
+          "path": "org/jetbrains/annotations/13.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+          ],
+          "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "13.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "annotations-13.0.pom",
+          "path": "org/jetbrains/annotations/13.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.pom"
+          ],
+          "sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.intellij.deps",
+            "name": "trove4j",
+            "version": "1.0.20181211",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "trove4j-1.0.20181211.jar",
+          "path": "org/jetbrains/intellij/deps/trove4j/1.0.20181211",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.jar"
+          ],
+          "sha256": "affb7c85a3c87bdcf69ff1dbb84de11f63dc931293934bc08cd7ab18de083601"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.intellij.deps",
+            "name": "trove4j",
+            "version": "1.0.20181211",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "trove4j-1.0.20181211.pom",
+          "path": "org/jetbrains/intellij/deps/trove4j/1.0.20181211",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.pom"
+          ],
+          "sha256": "310a6aa2d90534c32b8f46f1fc98cd0edae95dcdfca23e2847e5efa9ae0c019a"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-android-extensions",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-android-extensions-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-android-extensions/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-android-extensions/1.5.0/kotlin-android-extensions-1.5.0.jar"
+          ],
+          "sha256": "136641dc9f3d7b8f090d2767ca152d055bff51f4e19ddf32891cfde6f67a2ad1"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-android-extensions",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-android-extensions-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-android-extensions/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-android-extensions/1.5.0/kotlin-android-extensions-1.5.0.pom"
+          ],
+          "sha256": "3b1e6c1de1bf11e6522d41a1e9be78e08b9581b6cf5ea539a5d77b8abc3b6a54"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-annotation-processing-gradle",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-annotation-processing-gradle-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.5.0/kotlin-annotation-processing-gradle-1.5.0.jar"
+          ],
+          "sha256": "fe6363d566889654bed94aa53c5acf9760ea1b6548949bcf4450eb61594bd3f6"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-annotation-processing-gradle",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-annotation-processing-gradle-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.5.0/kotlin-annotation-processing-gradle-1.5.0.pom"
+          ],
+          "sha256": "a2508f50d385486461eff3ea62d72c0e1af5aeab6c80ee9793624104be819deb"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-build-common",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-build-common-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-build-common/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-common/1.5.0/kotlin-build-common-1.5.0.jar"
+          ],
+          "sha256": "4c89fc3e067066a340d4acce839702745573699460b44ac1796858d8a1dacfe6"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-build-common",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-build-common-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-build-common/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-common/1.5.0/kotlin-build-common-1.5.0.pom"
+          ],
+          "sha256": "94b35431964784c4032747a90f296380b5b34eab39589ba7e666a23185b7a61c"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-compiler-embeddable",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-compiler-embeddable-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0/kotlin-compiler-embeddable-1.5.0.jar"
+          ],
+          "sha256": "d7b85448039e468daf3b9462a172244477fa3eb890f199ec77703992f36ade44"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-compiler-embeddable",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-compiler-embeddable-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0/kotlin-compiler-embeddable-1.5.0.pom"
+          ],
+          "sha256": "db563cb627ec6d7aade8e9440f1f17e29992935d91f525e8f8f6f23776244fb5"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-compiler-runner",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-compiler-runner-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-compiler-runner/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/1.5.0/kotlin-compiler-runner-1.5.0.jar"
+          ],
+          "sha256": "38059a45746d49de93d15443220592ac5a18977a3a5c391603258c2eef13f67c"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-compiler-runner",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-compiler-runner-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-compiler-runner/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/1.5.0/kotlin-compiler-runner-1.5.0.pom"
+          ],
+          "sha256": "0050ade2071497236d820943587bb1e4b117f464c99ae97a72a7bf7acb8f2df7"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-daemon-client",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-daemon-client-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-daemon-client/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/1.5.0/kotlin-daemon-client-1.5.0.jar"
+          ],
+          "sha256": "4f23fbbee4eb85067ba122047a6f44247993a8c02427ecdb41a00ea3a86a5cef"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-daemon-client",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-daemon-client-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-daemon-client/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/1.5.0/kotlin-daemon-client-1.5.0.pom"
+          ],
+          "sha256": "6d0e987498b968aeb99dcd9a9df62961baac827a71fee04298bf8dc18875f2d5"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-daemon-embeddable",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-daemon-embeddable-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0/kotlin-daemon-embeddable-1.5.0.jar"
+          ],
+          "sha256": "bf32071706cf3c20580516b04d25a733c7a21db9cd9d04fc7060c00720bc91bc"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-daemon-embeddable",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-daemon-embeddable-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0/kotlin-daemon-embeddable-1.5.0.pom"
+          ],
+          "sha256": "4d10c9c5d24653a2fedff2ed151e6a16e929cbe9df2dedf7aead76bc36c3e7bb"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-gradle-plugin",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-gradle-plugin-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-gradle-plugin/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.5.0/kotlin-gradle-plugin-1.5.0.jar"
+          ],
+          "sha256": "0f556f5d82ae4277592a9ade9717e1cb2cbf5f87bb6cab6b5526bd4478d1d50e"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-gradle-plugin",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-gradle-plugin-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-gradle-plugin/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.5.0/kotlin-gradle-plugin-1.5.0.pom"
+          ],
+          "sha256": "8bdde19aed13083f1518707e6910cff840adbcb66ad3fc5865a24fe2c00cce3c"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-gradle-plugin-api",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-gradle-plugin-api-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.5.0/kotlin-gradle-plugin-api-1.5.0.jar"
+          ],
+          "sha256": "c6404f1eae6a2c6cc671d2de6d991b70aee7b541392ea8ecd222f27c2e355a57"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-gradle-plugin-api",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-gradle-plugin-api-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.5.0/kotlin-gradle-plugin-api-1.5.0.pom"
+          ],
+          "sha256": "75334406040247a5333b29f5556ea7248e5ea9befe2ab31aa3f08996806af5d8"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-gradle-plugin-model",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-gradle-plugin-model-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.5.0/kotlin-gradle-plugin-model-1.5.0.jar"
+          ],
+          "sha256": "1fdbd4fed78f1aa859e68dbbfcc45e4897a70de0018ec88709531e2ef7d055d5"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-gradle-plugin-model",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-gradle-plugin-model-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.5.0/kotlin-gradle-plugin-model-1.5.0.pom"
+          ],
+          "sha256": "0728a9bf940ce7b380ae746fd2c3069579eb9874d2eb23da5a0697e5d0cef33f"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-reflect",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-reflect-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-reflect/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/1.5.0/kotlin-reflect-1.5.0.jar"
+          ],
+          "sha256": "e30acc4ff74534177d1657feafb57327ede838ae17763aeaae182a9109d26157"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-reflect",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-reflect-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-reflect/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/1.5.0/kotlin-reflect-1.5.0.pom"
+          ],
+          "sha256": "c833a8024fb8a62b5639e429635d9fb358507742222405c12d4a94de1eeea22d"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-script-runtime",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-script-runtime-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-script-runtime/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-script-runtime/1.5.0/kotlin-script-runtime-1.5.0.jar"
+          ],
+          "sha256": "f2d45a350628bdfea25570c4c3f29198087e0f8cf53d87d928fb0da8a30c8fb7"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-script-runtime",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-script-runtime-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-script-runtime/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-script-runtime/1.5.0/kotlin-script-runtime-1.5.0.pom"
+          ],
+          "sha256": "9f7ffae32d89620d419e7f9f7d3fd0c5a7c21d307ffd1835f7004d8cae99416b"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-common",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-scripting-common-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-common/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-common/1.5.0/kotlin-scripting-common-1.5.0.jar"
+          ],
+          "sha256": "9acf9e892fc8f9d0ce7053b07090542f661e1753fc1815056045a94010203c9a"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-common",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-scripting-common-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-common/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-common/1.5.0/kotlin-scripting-common-1.5.0.pom"
+          ],
+          "sha256": "ae507333c30eedefa882a27ff524ef658f30bc22b1b4987fbe12ebea8d561c31"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-compiler-embeddable",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-scripting-compiler-embeddable-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0/kotlin-scripting-compiler-embeddable-1.5.0.jar"
+          ],
+          "sha256": "b0d7f061f5423e699c940d7a5389972eda2b4e15c8a68f8d8c9014dc3a10ebb2"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-compiler-embeddable",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-scripting-compiler-embeddable-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0/kotlin-scripting-compiler-embeddable-1.5.0.pom"
+          ],
+          "sha256": "c6683b4abef503618dbc2bb83951063e202fb690c5f983c4244f62972b5da0e4"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-compiler-impl-embeddable",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-scripting-compiler-impl-embeddable-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0/kotlin-scripting-compiler-impl-embeddable-1.5.0.jar"
+          ],
+          "sha256": "f9fecbf99f984826fc282b7afb7dff7990abc9e7f572741e87b56da304eb51cf"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-compiler-impl-embeddable",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-scripting-compiler-impl-embeddable-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0/kotlin-scripting-compiler-impl-embeddable-1.5.0.pom"
+          ],
+          "sha256": "42039f8f9c141cd0697a74a6c0422b5e240d9002dcbe3b2df5a9e85751b42bb6"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-jvm",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-scripting-jvm-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0/kotlin-scripting-jvm-1.5.0.jar"
+          ],
+          "sha256": "e9637b845793edacc219745aa3c39ed3033cde62e5d55be54715568b494ce675"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-jvm",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-scripting-jvm-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0/kotlin-scripting-jvm-1.5.0.pom"
+          ],
+          "sha256": "57f94587198b95d52e893a244c85f69740aa6b417b48115814c72d5c515be055"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-stdlib-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/1.5.0/kotlin-stdlib-1.5.0.jar"
+          ],
+          "sha256": "52283996fe4067cd7330288b96ae67ecd463614dc741172c54d9d349ab6a9cd7"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-stdlib-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/1.5.0/kotlin-stdlib-1.5.0.pom"
+          ],
+          "sha256": "95c92ed856dbdf768325a6f28d670a2da70a49b0da56a0751da2d1d35a7b99b5"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib-common",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-stdlib-common-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0/kotlin-stdlib-common-1.5.0.jar"
+          ],
+          "sha256": "c14ce6720a487b5e238f1b0c30ac3ad73e45b90a40731ca0b1cfddec1a37682f"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib-common",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-stdlib-common-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0/kotlin-stdlib-common-1.5.0.pom"
+          ],
+          "sha256": "d3852184b2c3bd26d8681ef8fc3977c2a301153d27871f11df8e2c115de7f104"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-util-io",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-util-io-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-util-io/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/1.5.0/kotlin-util-io-1.5.0.jar"
+          ],
+          "sha256": "a19bf658bb9a9b1a6d265c5ccb0b5fe4d360e6ccdbeca6d947b276b85abc7af6"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-util-io",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-util-io-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-util-io/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/1.5.0/kotlin-util-io-1.5.0.pom"
+          ],
+          "sha256": "2c0503ca00a22e59b100d8aa65a18eb490f05f793568815f9f3aa79c73a95929"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-util-klib",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-util-klib-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-util-klib/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/1.5.0/kotlin-util-klib-1.5.0.jar"
+          ],
+          "sha256": "2c194c63eda753ebf395c7ffaafe2385a20577d61f9d3c891c730e41a1a3a25e"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-util-klib",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-util-klib-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-util-klib/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/1.5.0/kotlin-util-klib-1.5.0.pom"
+          ],
+          "sha256": "9d9f0c0e9380d2ae6df6d9ebbd4cdd0cdb766096528aa4498176b77ab73b4607"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin.jvm",
+            "name": "org.jetbrains.kotlin.jvm.gradle.plugin",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "org.jetbrains.kotlin.jvm.gradle.plugin-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/jvm/org.jetbrains.kotlin.jvm.gradle.plugin/1.5.0",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlin/jvm/org.jetbrains.kotlin.jvm.gradle.plugin/1.5.0/org.jetbrains.kotlin.jvm.gradle.plugin-1.5.0.pom"
+          ],
+          "sha256": "bb78d6daf8da00c81384283ccc6a459f960602c65b8576dd49daaf65782cec47"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-coroutines-core",
+            "version": "1.3.8",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlinx-coroutines-core-1.3.8.jar",
+          "path": "org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8/kotlinx-coroutines-core-1.3.8.jar"
+          ],
+          "sha256": "f8c8b7485d4a575e38e5e94945539d1d4eccd3228a199e1a9aa094e8c26174ee"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-coroutines-core",
+            "version": "1.3.8",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlinx-coroutines-core-1.3.8.pom",
+          "path": "org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8/kotlinx-coroutines-core-1.3.8.pom"
+          ],
+          "sha256": "24ffa65bdfb7d893349cb2e78fb3714a490dd0a9c07375744bb136e9804807fd"
+        },
+        {
+          "id": {
+            "group": "org.sonatype.oss",
+            "name": "oss-parent",
+            "version": "7",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "oss-parent-7.pom",
+          "path": "org/sonatype/oss/oss-parent/7",
+          "urls": [
+            "https://plugins.gradle.org/m2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom"
+          ],
+          "sha256": "b51f8867c92b6a722499557fc3a1fdea77bdf9ef574722fe90ce436a29559454"
+        }
+      ],
+      "buildscript": [],
+      "project": [
+        {
+          "id": {
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "13.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "annotations-13.0.jar",
+          "path": "org/jetbrains/annotations/13.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+          ],
+          "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains",
+            "name": "annotations",
+            "version": "13.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "annotations-13.0.pom",
+          "path": "org/jetbrains/annotations/13.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom"
+          ],
+          "sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.intellij.deps",
+            "name": "trove4j",
+            "version": "1.0.20181211",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "trove4j-1.0.20181211.jar",
+          "path": "org/jetbrains/intellij/deps/trove4j/1.0.20181211",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.jar"
+          ],
+          "sha256": "affb7c85a3c87bdcf69ff1dbb84de11f63dc931293934bc08cd7ab18de083601"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.intellij.deps",
+            "name": "trove4j",
+            "version": "1.0.20181211",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "trove4j-1.0.20181211.pom",
+          "path": "org/jetbrains/intellij/deps/trove4j/1.0.20181211",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.pom"
+          ],
+          "sha256": "310a6aa2d90534c32b8f46f1fc98cd0edae95dcdfca23e2847e5efa9ae0c019a"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-compiler-embeddable",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-compiler-embeddable-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0/kotlin-compiler-embeddable-1.5.0.jar"
+          ],
+          "sha256": "d7b85448039e468daf3b9462a172244477fa3eb890f199ec77703992f36ade44"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-compiler-embeddable",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-compiler-embeddable-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0/kotlin-compiler-embeddable-1.5.0.pom"
+          ],
+          "sha256": "db563cb627ec6d7aade8e9440f1f17e29992935d91f525e8f8f6f23776244fb5"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-daemon-embeddable",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-daemon-embeddable-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0/kotlin-daemon-embeddable-1.5.0.jar"
+          ],
+          "sha256": "bf32071706cf3c20580516b04d25a733c7a21db9cd9d04fc7060c00720bc91bc"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-daemon-embeddable",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-daemon-embeddable-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0/kotlin-daemon-embeddable-1.5.0.pom"
+          ],
+          "sha256": "4d10c9c5d24653a2fedff2ed151e6a16e929cbe9df2dedf7aead76bc36c3e7bb"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-klib-commonizer-embeddable",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-klib-commonizer-embeddable-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-klib-commonizer-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-embeddable/1.5.0/kotlin-klib-commonizer-embeddable-1.5.0.jar"
+          ],
+          "sha256": "98a1efd3e9660c828ba3e80e54cd17a098edec74620729115ad6ea7c5fec619c"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-klib-commonizer-embeddable",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-klib-commonizer-embeddable-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-klib-commonizer-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-embeddable/1.5.0/kotlin-klib-commonizer-embeddable-1.5.0.pom"
+          ],
+          "sha256": "9150e4a604bba5da1c266d92275e6092090d3966156560ec8765ca2fa23d2fd8"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-reflect",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-reflect-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-reflect/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.5.0/kotlin-reflect-1.5.0.jar"
+          ],
+          "sha256": "e30acc4ff74534177d1657feafb57327ede838ae17763aeaae182a9109d26157"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-reflect",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-reflect-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-reflect/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.5.0/kotlin-reflect-1.5.0.pom"
+          ],
+          "sha256": "c833a8024fb8a62b5639e429635d9fb358507742222405c12d4a94de1eeea22d"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-script-runtime",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-script-runtime-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-script-runtime/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/1.5.0/kotlin-script-runtime-1.5.0.jar"
+          ],
+          "sha256": "f2d45a350628bdfea25570c4c3f29198087e0f8cf53d87d928fb0da8a30c8fb7"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-script-runtime",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-script-runtime-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-script-runtime/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/1.5.0/kotlin-script-runtime-1.5.0.pom"
+          ],
+          "sha256": "9f7ffae32d89620d419e7f9f7d3fd0c5a7c21d307ffd1835f7004d8cae99416b"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-common",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-scripting-common-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-common/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/1.5.0/kotlin-scripting-common-1.5.0.jar"
+          ],
+          "sha256": "9acf9e892fc8f9d0ce7053b07090542f661e1753fc1815056045a94010203c9a"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-common",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-scripting-common-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-common/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/1.5.0/kotlin-scripting-common-1.5.0.pom"
+          ],
+          "sha256": "ae507333c30eedefa882a27ff524ef658f30bc22b1b4987fbe12ebea8d561c31"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-compiler-embeddable",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-scripting-compiler-embeddable-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0/kotlin-scripting-compiler-embeddable-1.5.0.jar"
+          ],
+          "sha256": "b0d7f061f5423e699c940d7a5389972eda2b4e15c8a68f8d8c9014dc3a10ebb2"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-compiler-embeddable",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-scripting-compiler-embeddable-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0/kotlin-scripting-compiler-embeddable-1.5.0.pom"
+          ],
+          "sha256": "c6683b4abef503618dbc2bb83951063e202fb690c5f983c4244f62972b5da0e4"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-compiler-impl-embeddable",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-scripting-compiler-impl-embeddable-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0/kotlin-scripting-compiler-impl-embeddable-1.5.0.jar"
+          ],
+          "sha256": "f9fecbf99f984826fc282b7afb7dff7990abc9e7f572741e87b56da304eb51cf"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-compiler-impl-embeddable",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-scripting-compiler-impl-embeddable-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0/kotlin-scripting-compiler-impl-embeddable-1.5.0.pom"
+          ],
+          "sha256": "42039f8f9c141cd0697a74a6c0422b5e240d9002dcbe3b2df5a9e85751b42bb6"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-jvm",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-scripting-jvm-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0/kotlin-scripting-jvm-1.5.0.jar"
+          ],
+          "sha256": "e9637b845793edacc219745aa3c39ed3033cde62e5d55be54715568b494ce675"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-scripting-jvm",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-scripting-jvm-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0/kotlin-scripting-jvm-1.5.0.pom"
+          ],
+          "sha256": "57f94587198b95d52e893a244c85f69740aa6b417b48115814c72d5c515be055"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-stdlib-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.0/kotlin-stdlib-1.5.0.jar"
+          ],
+          "sha256": "52283996fe4067cd7330288b96ae67ecd463614dc741172c54d9d349ab6a9cd7"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-stdlib-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.0/kotlin-stdlib-1.5.0.pom"
+          ],
+          "sha256": "95c92ed856dbdf768325a6f28d670a2da70a49b0da56a0751da2d1d35a7b99b5"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib-common",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-stdlib-common-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0/kotlin-stdlib-common-1.5.0.jar"
+          ],
+          "sha256": "c14ce6720a487b5e238f1b0c30ac3ad73e45b90a40731ca0b1cfddec1a37682f"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib-common",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-stdlib-common-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0/kotlin-stdlib-common-1.5.0.pom"
+          ],
+          "sha256": "d3852184b2c3bd26d8681ef8fc3977c2a301153d27871f11df8e2c115de7f104"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib-jdk7",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-stdlib-jdk7-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.0/kotlin-stdlib-jdk7-1.5.0.jar"
+          ],
+          "sha256": "ac12f092f12b575c1f9e0ab5025b1e610b0fe95663e26371c16c328895711bae"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib-jdk7",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-stdlib-jdk7-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.0/kotlin-stdlib-jdk7-1.5.0.pom"
+          ],
+          "sha256": "ed3e6cd34c3d3a773da0e007bb12e164548725464e5adb61644a98fb29254ad1"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib-jdk8",
+            "version": "1.5.0",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlin-stdlib-jdk8-1.5.0.jar",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.0/kotlin-stdlib-jdk8-1.5.0.jar"
+          ],
+          "sha256": "15e6c81b9e845eefe58d51a04670bb90418046f458264ec0e61ee9bdbc1bfae7"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlin",
+            "name": "kotlin-stdlib-jdk8",
+            "version": "1.5.0",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlin-stdlib-jdk8-1.5.0.pom",
+          "path": "org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.0",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.0/kotlin-stdlib-jdk8-1.5.0.pom"
+          ],
+          "sha256": "d0bb3e9d3c63e1ed9b07794f856b722042705717df30510e4cce113ee2ca594d"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-coroutines-core",
+            "version": "1.3.8",
+            "type": "jar",
+            "extension": "jar"
+          },
+          "name": "kotlinx-coroutines-core-1.3.8.jar",
+          "path": "org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8/kotlinx-coroutines-core-1.3.8.jar"
+          ],
+          "sha256": "f8c8b7485d4a575e38e5e94945539d1d4eccd3228a199e1a9aa094e8c26174ee"
+        },
+        {
+          "id": {
+            "group": "org.jetbrains.kotlinx",
+            "name": "kotlinx-coroutines-core",
+            "version": "1.3.8",
+            "type": "pom",
+            "extension": "pom"
+          },
+          "name": "kotlinx-coroutines-core-1.3.8.pom",
+          "path": "org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8",
+          "urls": [
+            "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8/kotlinx-coroutines-core-1.3.8.pom"
+          ],
+          "sha256": "24ffa65bdfb7d893349cb2e78fb3714a490dd0a9c07375744bb136e9804807fd"
+        }
+      ]
+    }
+  }
+}
