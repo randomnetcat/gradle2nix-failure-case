@@ -1,6 +1,6 @@
 {
   "": {
-    "name": "AgoraBot",
+    "name": "gradle2nix-repro",
     "version": "1.0-SNAPSHOT",
     "path": "",
     "gradle": {

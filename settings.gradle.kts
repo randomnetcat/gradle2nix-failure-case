@@ -1,3 +1,3 @@
 
-rootProject.name = "AgoraBot"
+rootProject.name = "gradle2nix-repro"
 
